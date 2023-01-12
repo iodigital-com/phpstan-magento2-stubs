@@ -1,16 +1,17 @@
 {
-    "name": "melvinversluijs/phpstan-magento2-stubs",
+    "name": "isaac/phpstan-magento2-stubs",
     "description": "PHPStan Magento 2 stub files",
     "type": "phpstan-extension",
     "license": "MIT",
     "authors": [
         {
-            "name": "Melvin Versluijs",
-            "email": "melvin.versluijs@outlook.com"
+            "name": "ISAAC",
+            "email": "info@isaac.nl",
+            "homepage": "https://www.isaac.nl"
         }
     ],
     "require": {
-        "php": "^8.1.0",
+        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
         "phpstan/phpstan": "^1.9.0"
     },
     "prefer-stable": true,
@@ -20,5 +21,8 @@
                 "extension.neon"
             ]
         }
+    },
+    "support": {
+        "issues": "https://github.com/isaaceindhoven/phpstan-magento2-stubs"
     }
 }
