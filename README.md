@@ -1,6 +1,6 @@
 # PHPStan Magento 2 stubfiles
 
-PHPStan stubfiles for the Magento 2 framework. Currenly the stub files are targeted towards the 2.4.5-p1 version.
+[PHPStan](https://phpstan.org/) stubfiles for the Magento 2 framework. Currenly the stub files are targeted towards the 2.4.5-p1 version.
 
 ## Installation
 
