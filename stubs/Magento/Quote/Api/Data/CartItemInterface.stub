@@ -1,0 +1,10 @@
+<?php
+
+namespace Magento\Quote\Api\Data;
+
+interface CartItemInterface {
+    /**
+     * @return float|string|null
+     */
+    public function getPrice();
+}

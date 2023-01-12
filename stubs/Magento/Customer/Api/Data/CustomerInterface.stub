@@ -1,0 +1,17 @@
+<?php
+
+namespace Magento\Customer\Api\Data;
+
+interface CustomerInterface
+{
+    /**
+     * @return int|string|null
+     */
+    public function getId();
+
+    /**
+     * @param string|null $middlename
+     * @return $this
+     */
+    public function setMiddlename($middlename);
+}

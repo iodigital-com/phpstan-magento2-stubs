@@ -1,0 +1,10 @@
+<?php
+
+namespace Magento\Eav\Model\Entity\Attribute;
+
+/**
+ * @method int|string getAttributeId()
+ */
+class Option
+{
+}

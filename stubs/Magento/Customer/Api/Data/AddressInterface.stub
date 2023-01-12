@@ -1,0 +1,18 @@
+<?php
+
+namespace Magento\Customer\Api\Data;
+
+interface AddressInterface
+{
+    /**
+     * @param string|null $middleName
+     * @return $this
+     */
+    public function setMiddlename($middleName);
+
+    /**
+     * @param string|null $postcode
+     * @return $this
+     */
+    public function setPostcode($postcode);
+}

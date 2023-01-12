@@ -1,0 +1,28 @@
+<?php
+
+namespace Magento\Eav\Setup;
+
+class EavSetup
+{
+        /**
+         * @param string|int $entityType
+         * @return string|int
+         */
+        public function getDefaultAttributeSetId($entityType) {}
+
+        /**
+         * @param int|string $entityTypeId
+         * @param int|string $id
+         * @return int|string|false
+         */
+        public function getAttributeId($entityTypeId, $id) {}
+
+        /**
+         * @param int|string $entityTypeId
+         * @param int|string $id
+         * @param string $field
+         * @param mixed $value
+         * @return $this
+         */
+        public function updateAttributeSet($entityTypeId, $id, $field, $value = null) {}
+}

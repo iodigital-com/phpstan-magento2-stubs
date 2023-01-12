@@ -1,0 +1,12 @@
+<?php
+
+namespace Magento\Cms\Api;
+
+interface PageRepositoryInterface
+{
+    /**
+     * @param int|string $pageId
+     * @return \Magento\Cms\Api\Data\PageInterface
+     */
+    public function getById($pageId);
+}

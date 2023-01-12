@@ -1,0 +1,23 @@
+<?php
+
+namespace Magento\Framework\Indexer;
+
+interface ActionInterface
+{
+    /**
+    * @return void
+    */
+    public function executeFull();
+
+    /**
+     * @param array<string> $ids
+     * @return void
+     */
+    public function executeList(array $ids);
+
+    /**
+     * @param string $id
+     * @return void
+     */
+    public function executeRow($id);
+}

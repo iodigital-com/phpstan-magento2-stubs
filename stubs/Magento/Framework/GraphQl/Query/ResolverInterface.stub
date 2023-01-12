@@ -1,0 +1,22 @@
+<?php
+
+namespace Magento\Framework\GraphQl\Query;
+
+interface ResolverInterface
+{
+    /**
+     * @param \Magento\Framework\GraphQl\Config\Element\Field $field
+     * @param \Magento\Framework\GraphQl\Query\Resolver\ContextInterface $context
+     * @param \Magento\Framework\GraphQl\Schema\Type\ResolveInfo $info
+     * @param array<string, mixed>|null $value
+     * @param array<string, mixed>|null $args
+     * @return mixed
+     */
+    public function resolve(
+        \Magento\Framework\GraphQl\Config\Element\Field $field,
+        $context,
+        \Magento\Framework\GraphQl\Schema\Type\ResolveInfo $info,
+        ?array $value = null,
+        ?array $args = null
+    );
+}

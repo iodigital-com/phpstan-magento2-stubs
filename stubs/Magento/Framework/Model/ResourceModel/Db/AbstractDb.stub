@@ -1,0 +1,11 @@
+<?php
+
+namespace Magento\Framework\Model\ResourceModel\Db;
+
+abstract class AbstractDb
+{
+    /**
+     * @return \Magento\Framework\DB\Adapter\AdapterInterface
+     */
+    public function getConnection();
+}

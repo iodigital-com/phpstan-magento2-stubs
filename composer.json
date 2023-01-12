@@ -1,0 +1,24 @@
+{
+    "name": "melvinversluijs/phpstan-magento2-stubs",
+    "description": "PHPStan Magento 2 stub files",
+    "type": "phpstan-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melvin Versluijs",
+            "email": "melvin.versluijs@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1.0",
+        "phpstan/phpstan": "^1.9.0"
+    },
+    "prefer-stable": true,
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    }
+}

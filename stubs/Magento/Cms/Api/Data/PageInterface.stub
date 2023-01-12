@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Cms\Api\Data;
+
+interface PageInterface
+{
+}

@@ -1,0 +1,24 @@
+parameters:
+    stubFiles:
+        - ./stubs/Magento/AdvancedSearch/Model/Adapter/DataMapper/AdditionalFieldsProviderInterface.stub
+        - ./stubs/Magento/Catalog/Api/Data/ProductInterface.stub
+        - ./stubs/Magento/Cms/Api/Data/PageInterface.stub
+        - ./stubs/Magento/Cms/Api/PageRepositoryInterface.stub
+        - ./stubs/Magento/Customer/Api/Data/AddressInterface.stub
+        - ./stubs/Magento/Customer/Api/Data/CustomerInterface.stub
+        - ./stubs/Magento/Eav/Api/Data/AttributeSetInterface.stub
+        - ./stubs/Magento/Eav/Model/Entity/Attribute/Option.stub
+        - ./stubs/Magento/Eav/Setup/EavSetup.stub
+        - ./stubs/Magento/Elasticsearch/Model/Adapter/FieldMapper/Product/FieldProviderInterface.stub
+        - ./stubs/Magento/Framework/DB/Adapter/AdapterInterface.stub
+        - ./stubs/Magento/Framework/GraphQl/Config/Element/Field.stub
+        - ./stubs/Magento/Framework/GraphQl/Query/ResolverInterface.stub
+        - ./stubs/Magento/Framework/GraphQl/Query/Resolver/ContextInterface.stub
+        - ./stubs/Magento/Framework/GraphQl/Schema/Type/ResolveInfo.stub
+        - ./stubs/Magento/Framework/Indexer/IndexerActionInterface.stub
+        - ./stubs/Magento/Framework/Mview/MviewActionInterface.stub
+        - ./stubs/Magento/Framework/Model/ResourceModel/Db/AbstractDb.stub
+        - ./stubs/Magento/Quote/Api/Data/CartItemInterface.stub
+        - ./stubs/Magento/Quote/Model/Quote/Item/AbstractItem.stub
+        - ./stubs/Magento/Sales/Api/Data/OrderInterface.stub
+        - ./stubs/Magento/Sales/Api/Data/OrderItemInterface.stub

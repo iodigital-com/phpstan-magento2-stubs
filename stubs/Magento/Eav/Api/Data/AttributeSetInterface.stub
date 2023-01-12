@@ -1,0 +1,12 @@
+<?php
+
+namespace Magento\Eav\Api\Data;
+
+interface AttributeSetInterface
+{
+    /**
+     * @param int|string $entityTypeId
+     * @return $this
+     */
+    public function setEntityTypeId($entityTypeId);
+}

@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\AdvancedSearch\Model\Adapter\DataMapper;
+
+interface AdditionalFieldsProviderInterface
+{
+    /**
+     * @param array<string> $productIds
+     * @param int $storeId
+     * @return array<string, array<string, string|array<string>>>
+     */
+    public function getFields(array $productIds, $storeId);
+}

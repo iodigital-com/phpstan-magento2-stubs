@@ -1,0 +1,12 @@
+<?php
+
+namespace Magento\Framework\Mview;
+
+interface ActionInterface
+{
+    /**
+     * @param array<string> $ids
+     * @return void
+     */
+    public function execute($ids);
+}

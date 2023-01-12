@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Quote\Model\Quote\Item;
+
+/**
+* @method float|string|null getRowTotal()
+*/
+class AbstractItem {
+    /**
+     * @return float|string|null
+     */
+    public function getPrice();
+}
