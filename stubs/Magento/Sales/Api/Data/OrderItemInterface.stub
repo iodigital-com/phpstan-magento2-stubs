@@ -8,4 +8,9 @@ interface OrderItemInterface
      * @return float|string|null
      */
     public function getRowTotalInclTax();
+
+    /**
+     * @return int|string|null
+     */
+    public function getProductId();
 }
