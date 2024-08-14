@@ -1,13 +1,13 @@
 {
-    "name": "isaac/phpstan-magento2-stubs",
+    "name": "iodigital-com/phpstan-magento2-stubs",
     "description": "PHPStan Magento 2 stub files",
     "type": "phpstan-extension",
     "license": "MIT",
     "authors": [
         {
-            "name": "ISAAC",
-            "email": "info@isaac.nl",
-            "homepage": "https://www.isaac.nl"
+            "name": "iO",
+            "email": "info@iodigital.com",
+            "homepage": "https://www.iodigital.com"
         }
     ],
     "require": {
@@ -23,6 +23,6 @@
         }
     },
     "support": {
-        "issues": "https://github.com/isaaceindhoven/phpstan-magento2-stubs"
+        "issues": "https://github.com/iodigital-com/phpstan-magento2-stubs"
     }
 }

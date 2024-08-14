@@ -5,12 +5,12 @@
 ## Installation
 
 ```bash
-composer require --dev isaac/phpstan-magento2-stubs
+composer require --dev iodigital-com/phpstan-magento2-stubs
 ```
 
 If you use the [phpstan/extension-installer](https://github.com/phpstan/extension-installer) package. You do not need any further configuraton. However if you do not use this package. Add the following configuration to your `phpstan.neon` file.
 
 ```yaml
 includes:
-  - ./vendor/isaac/phpstan-magento2-stubfiles/extension.yml
+  - ./vendor/iodigital-com/phpstan-magento2-stubfiles/extension.yml
 ```
