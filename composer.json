@@ -1,5 +1,8 @@
 {
     "name": "iodigital-com/phpstan-magento2-stubs",
+    "replace": {
+        "isaac/phpstan-magento2-stubs": "*"
+    },
     "description": "PHPStan Magento 2 stub files",
     "type": "phpstan-extension",
     "license": "MIT",
