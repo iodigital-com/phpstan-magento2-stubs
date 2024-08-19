@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: phpstan-magento2-stubs
+  title: PHPStan Magento 2 stub files
+  description: [PHPStan](https://phpstan.org/) stubfiles for the Magento 2 framework.
+  namespace: io
+  tags:
+    - php
+  annotations:
+    jira/project-key: ICOMP
+    jira/label: phpstan-magento2-stubfiles
+spec:
+  type: library
+  lifecycle: development
+  owner: default/team_chapter_php_eindhoven
