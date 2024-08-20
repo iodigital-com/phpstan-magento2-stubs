@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: phpstan-magento2-stubs
   title: PHPStan Magento 2 stub files
-  description: [PHPStan](https://phpstan.org/) stubfiles for the Magento 2 framework.
+  description: '[PHPStan](https://phpstan.org/) stubfiles for the Magento 2 framework.'
   namespace: io
   tags:
     - php
