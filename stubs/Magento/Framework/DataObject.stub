@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Framework;
+
+class DataObject
+{
+}

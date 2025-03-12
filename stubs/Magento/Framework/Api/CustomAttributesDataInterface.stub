@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Framework\Api;
+
+interface CustomAttributesDataInterface extends ExtensibleDataInterface
+{
+}

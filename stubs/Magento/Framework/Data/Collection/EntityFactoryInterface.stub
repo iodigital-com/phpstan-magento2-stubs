@@ -1,0 +1,14 @@
+<?php
+
+namespace Magento\Framework\Data\Collection;
+
+interface EntityFactoryInterface
+{
+    /**
+     * @template T
+     * @param class-string<T> $type
+     * @param array<mixed> $arguments
+     * @return T
+     */
+    public function create($type, array $arguments = []);
+}

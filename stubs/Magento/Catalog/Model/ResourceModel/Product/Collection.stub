@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Catalog\Model\ResourceModel\Product;
+
+use Magento\Catalog\Model\Product;
+use Magento\Catalog\Model\ResourceModel\Collection\AbstractCollection;
+
+/**
+ * @extends AbstractCollection<Product>
+ */
+class Collection extends AbstractCollection
+{
+}

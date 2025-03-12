@@ -1,0 +1,12 @@
+<?php
+
+namespace Magento\Catalog\Model\ResourceModel\Product;
+
+class CollectionFactory
+{
+    /**
+     * @param array<mixed> $data
+     * @return Collection
+     */
+    public function create(array $data = []);
+}

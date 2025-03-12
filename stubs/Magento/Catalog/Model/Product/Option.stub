@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Catalog\Model\Product;
+
+use Magento\Catalog\Model\Product\Option\Value;
+
+class Option
+{
+    /**
+     * @return array<Value>|null
+     */
+    public function getValues();
+}

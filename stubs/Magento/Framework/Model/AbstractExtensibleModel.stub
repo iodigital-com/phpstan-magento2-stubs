@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Framework\Model;
+
+abstract class AbstractExtensibleModel extends AbstractModel
+{
+}
