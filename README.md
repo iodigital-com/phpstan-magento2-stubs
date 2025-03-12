@@ -12,5 +12,5 @@ If you use the [phpstan/extension-installer](https://github.com/phpstan/extensio
 
 ```yaml
 includes:
-  - ./vendor/iodigital-com/phpstan-magento2-stubfiles/extension.yml
+  - ./vendor/iodigital-com/phpstan-magento2-stubfiles/extension.neon
 ```
