@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
-        "phpstan/phpstan": "^1.9.0"
+        "phpstan/phpstan": "^1.9.0|^2.0"
     },
     "prefer-stable": true,
     "extra": {
