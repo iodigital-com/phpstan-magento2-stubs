@@ -33,6 +33,7 @@ parameters:
         - ./stubs/Magento/Framework/Data/OptionSourceInterface.stub
         - ./stubs/Magento/Framework/DataObject.stub
         - ./stubs/Magento/Framework/DB/Adapter/AdapterInterface.stub
+        - ./stubs/Magento/Framework/Escaper.stub
         - ./stubs/Magento/Framework/Exception/LocalizedException.stub
         - ./stubs/Magento/Framework/GraphQl/Config/Element/Field.stub
         - ./stubs/Magento/Framework/GraphQl/Query/Resolver/ContextInterface.stub
