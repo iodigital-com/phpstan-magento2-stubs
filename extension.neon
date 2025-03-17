@@ -19,7 +19,6 @@ parameters:
         - ./stubs/Magento/Customer/Model/EmailNotificationInterface.stub
         - ./stubs/Magento/Eav/Api/Data/AttributeOptionInterface.stub
         - ./stubs/Magento/Eav/Api/Data/AttributeSetInterface.stub
-        - ./stubs/Magento/Eav/Model/Entity/Attribute/Option.stub
         - ./stubs/Magento/Eav/Model/Entity/Attribute/Source/AbstractSource.stub
         - ./stubs/Magento/Eav/Model/Entity/Attribute/Source/SourceInterface.stub
         - ./stubs/Magento/Eav/Model/Entity/Collection/AbstractCollection.stub
@@ -46,7 +45,6 @@ parameters:
         - ./stubs/Magento/Framework/Model/ResourceModel/Db/Collection/AbstractCollection.stub
         - ./stubs/Magento/Framework/Mview/MviewActionInterface.stub
         - ./stubs/Magento/Quote/Api/Data/CartItemInterface.stub
-        - ./stubs/Magento/Quote/Model/Quote.stub
         - ./stubs/Magento/Quote/Model/Quote/Address.stub
         - ./stubs/Magento/Quote/Model/Quote/Item.stub
         - ./stubs/Magento/Quote/Model/Quote/Item/AbstractItem.stub
