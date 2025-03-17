@@ -10,5 +10,5 @@ class Escaper
      * @param array<string>|null $allowedTags
      * @return T
      */
-    public function escapeHtml($data, $allowedTags = null)
+    public function escapeHtml($data, $allowedTags = null);
 }
