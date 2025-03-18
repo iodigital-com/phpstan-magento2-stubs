@@ -1,0 +1,9 @@
+<?php
+
+namespace Magento\Quote\Model\Quote;
+
+use Magento\Quote\Model\Quote\Item\AbstractItem;
+
+class Item extends AbstractItem
+{
+}

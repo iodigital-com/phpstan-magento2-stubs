@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Framework\Option;
+
+interface ArrayInterface extends \Magento\Framework\Data\OptionSourceInterface
+{
+}

@@ -1,0 +1,14 @@
+<?php
+
+namespace Magento\Catalog\Model\ResourceModel\Collection;
+
+use Magento\Eav\Model\Entity\Collection\AbstractCollection as AbstractEavCollection;
+use Magento\Framework\DataObject;
+
+/**
+ * @template T of DataObject
+ * @extends AbstractEavCollection<T>
+ */
+class AbstractCollection extends AbstractEavCollection
+{
+}

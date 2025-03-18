@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Eav\Model\Entity\Attribute\Source;
+
+abstract class AbstractSource implements
+    \Magento\Eav\Model\Entity\Attribute\Source\SourceInterface,
+    \Magento\Framework\Option\ArrayInterface
+{
+    /**
+     * @var array<int, array{value: int|string, label: string, __disableTmpl?: bool}>|null
+     */
+    protected $_options = null;
+}

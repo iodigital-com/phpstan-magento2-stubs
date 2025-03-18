@@ -2,7 +2,9 @@
 
 namespace Magento\Customer\Api\Data;
 
-interface CustomerInterface
+use Magento\Framework\Api\CustomAttributesDataInterface;
+
+interface CustomerInterface extends CustomAttributesDataInterface
 {
     /**
      * @return int|string|null

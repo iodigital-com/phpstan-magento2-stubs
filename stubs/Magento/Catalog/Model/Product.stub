@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Catalog\Model;
+
+class Product extends AbstractModel
+{
+}

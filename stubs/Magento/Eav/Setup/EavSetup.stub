@@ -2,20 +2,31 @@
 
 namespace Magento\Eav\Setup;
 
+use Magento\Framework\Exception\LocalizedException;
+
 class EavSetup
 {
         /**
          * @param string|int $entityType
          * @return string|int
          */
-        public function getDefaultAttributeSetId($entityType) {}
+        public function getDefaultAttributeSetId($entityType);
 
         /**
          * @param int|string $entityTypeId
          * @param int|string $id
          * @return int|string|false
          */
-        public function getAttributeId($entityTypeId, $id) {}
+        public function getAttributeId($entityTypeId, $id);
+
+        /**
+         * @param int|string $entityTypeId
+         * @param int|string $setId
+         * @param int|string $groupId
+         * @return int|string
+         * @throws LocalizedException
+         */
+        public function getAttributeGroupId($entityTypeId, $setId, $groupId);
 
         /**
          * @param int|string $entityTypeId
@@ -24,5 +35,5 @@ class EavSetup
          * @param mixed $value
          * @return $this
          */
-        public function updateAttributeSet($entityTypeId, $id, $field, $value = null) {}
+        public function updateAttributeSet($entityTypeId, $id, $field, $value = null);
 }

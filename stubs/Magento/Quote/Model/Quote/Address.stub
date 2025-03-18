@@ -1,0 +1,10 @@
+<?php
+
+namespace Magento\Quote\Model\Quote;
+
+class Address {
+    /**
+     * @return string|null
+     */
+    public function getShippingMethod();
+}

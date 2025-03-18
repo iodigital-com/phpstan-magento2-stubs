@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Catalog\Model\Product\Option;
+
+class Value
+{
+}
