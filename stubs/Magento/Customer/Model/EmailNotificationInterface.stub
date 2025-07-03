@@ -1,0 +1,28 @@
+<?php
+
+namespace Magento\Customer\Model;
+
+use Magento\Customer\Api\Data\CustomerInterface;
+use Magento\Framework\Exception\LocalizedException;
+
+interface EmailNotificationInterface
+{
+    /**
+     * Send email with new account related information
+     *
+     * @param CustomerInterface $customer
+     * @param string $type
+     * @param string $backUrl
+     * @param int|string|null $storeId
+     * @param string $sendemailStoreId
+     * @return void
+     * @throws LocalizedException
+     */
+    public function newAccount(
+        CustomerInterface $customer,
+        $type = self::NEW_ACCOUNT_EMAIL_REGISTERED,
+        $backUrl = '',
+        $storeId = null,
+        $sendemailStoreId = null
+    ): void;
+}

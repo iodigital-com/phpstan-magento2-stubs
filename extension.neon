@@ -1,24 +1,59 @@
 parameters:
     stubFiles:
         - ./stubs/Magento/AdvancedSearch/Model/Adapter/DataMapper/AdditionalFieldsProviderInterface.stub
+        - ./stubs/Magento/Bundle/Model/ResourceModel/Selection/Collection.stub
+        - ./stubs/Magento/Catalog/Api/Data/ProductAttributeMediaGalleryEntryInterface.stub
+        - ./stubs/Magento/Catalog/Api/Data/ProductCustomOptionValuesInterface.stub
         - ./stubs/Magento/Catalog/Api/Data/ProductInterface.stub
+        - ./stubs/Magento/Catalog/Model/Product.stub
+        - ./stubs/Magento/Catalog/Model/Product/Option.stub
+        - ./stubs/Magento/Catalog/Model/Product/Option/Repository.stub
+        - ./stubs/Magento/Catalog/Model/Product/Option/Value.stub
+        - ./stubs/Magento/Catalog/Model/ResourceModel/Collection/AbstractCollection.stub
+        - ./stubs/Magento/Catalog/Model/ResourceModel/Product/Collection.stub
+        - ./stubs/Magento/Catalog/Model/ResourceModel/Product/CollectionFactory.stub
         - ./stubs/Magento/Cms/Api/Data/PageInterface.stub
         - ./stubs/Magento/Cms/Api/PageRepositoryInterface.stub
         - ./stubs/Magento/Customer/Api/Data/AddressInterface.stub
         - ./stubs/Magento/Customer/Api/Data/CustomerInterface.stub
+        - ./stubs/Magento/Customer/Model/EmailNotificationInterface.stub
+        - ./stubs/Magento/Eav/Api/Data/AttributeOptionInterface.stub
         - ./stubs/Magento/Eav/Api/Data/AttributeSetInterface.stub
-        - ./stubs/Magento/Eav/Model/Entity/Attribute/Option.stub
+        - ./stubs/Magento/Eav/Model/Entity/Attribute/Source/AbstractSource.stub
+        - ./stubs/Magento/Eav/Model/Entity/Attribute/Source/SourceInterface.stub
+        - ./stubs/Magento/Eav/Model/Entity/Collection/AbstractCollection.stub
         - ./stubs/Magento/Eav/Setup/EavSetup.stub
         - ./stubs/Magento/Elasticsearch/Model/Adapter/FieldMapper/Product/FieldProviderInterface.stub
+        - ./stubs/Magento/Framework/Api/CustomAttributesDataInterface.stub
+        - ./stubs/Magento/Framework/Api/ExtensibleDataInterface.stub
+        - ./stubs/Magento/Framework/Data/Collection.stub
+        - ./stubs/Magento/Framework/Data/Collection/AbstractDb.stub
+        - ./stubs/Magento/Framework/Data/Collection/EntityFactoryInterface.stub
+        - ./stubs/Magento/Framework/Data/OptionSourceInterface.stub
+        - ./stubs/Magento/Framework/DataObject.stub
         - ./stubs/Magento/Framework/DB/Adapter/AdapterInterface.stub
+        - ./stubs/Magento/Framework/Escaper.stub
+        - ./stubs/Magento/Framework/Exception/LocalizedException.stub
         - ./stubs/Magento/Framework/GraphQl/Config/Element/Field.stub
-        - ./stubs/Magento/Framework/GraphQl/Query/ResolverInterface.stub
         - ./stubs/Magento/Framework/GraphQl/Query/Resolver/ContextInterface.stub
+        - ./stubs/Magento/Framework/GraphQl/Query/ResolverInterface.stub
         - ./stubs/Magento/Framework/GraphQl/Schema/Type/ResolveInfo.stub
         - ./stubs/Magento/Framework/Indexer/IndexerActionInterface.stub
-        - ./stubs/Magento/Framework/Mview/MviewActionInterface.stub
+        - ./stubs/Magento/Framework/Model/AbstractExtensibleModel.stub
+        - ./stubs/Magento/Framework/Model/AbstractModel.stub
         - ./stubs/Magento/Framework/Model/ResourceModel/Db/AbstractDb.stub
+        - ./stubs/Magento/Framework/Model/ResourceModel/Db/Collection/AbstractCollection.stub
+        - ./stubs/Magento/Framework/Mview/MviewActionInterface.stub
         - ./stubs/Magento/Quote/Api/Data/CartItemInterface.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address/RateRequest.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address/RateResult/AbstractResult.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address/RateResult/Error.stub
+        - ./stubs/Magento/Quote/Model/Quote/Item.stub
         - ./stubs/Magento/Quote/Model/Quote/Item/AbstractItem.stub
         - ./stubs/Magento/Sales/Api/Data/OrderInterface.stub
         - ./stubs/Magento/Sales/Api/Data/OrderItemInterface.stub
+        - ./stubs/Magento/Shipping/Model/Carrier/AbstractCarrierInterface.stub
+        - ./stubs/Magento/Shipping/Model/Rate/Result.stub
+        - ./stubs/Magento/UrlRewrite/Model/ResourceModel/UrlRewriteCollection.stub
+        - ./stubs/Magento/UrlRewrite/Model/UrlRewrite.stub

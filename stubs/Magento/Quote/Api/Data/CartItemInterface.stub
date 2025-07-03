@@ -2,7 +2,25 @@
 
 namespace Magento\Quote\Api\Data;
 
-interface CartItemInterface {
+interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterface
+{
+    /**
+     * @param int|string|null $itemId
+     * @return $this
+     */
+    public function setItemId($itemId);
+
+    /**
+     * @return string|int|null
+     */
+    public function getItemId();
+
+    /**
+     * @param string|int|null $quoteId
+     * @return $this
+     */
+    public function setQuoteId($quoteId);
+
     /**
      * @return float|string|null
      */

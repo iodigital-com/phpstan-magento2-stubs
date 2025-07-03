@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Quote\Model\Quote\Address\RateResult;
+
+class Error extends AbstractResult
+{
+}

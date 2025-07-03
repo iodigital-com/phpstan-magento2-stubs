@@ -8,4 +8,9 @@ interface OrderInterface
      * @return int|string|null
      */
     public function getEntityId();
+
+    /**
+     * @return string|int|null
+     */
+    public function getQuoteId();
 }

@@ -1,0 +1,17 @@
+<?php
+
+namespace Magento\Shipping\Model\Carrier;
+
+use Magento\Quote\Model\Quote\Address\RateRequest;
+use Magento\Quote\Model\Quote\Address\RateResult\Error;
+use Magento\Shipping\Model\Rate\Result;
+interface AbstractCarrierInterface
+{
+    /**
+     * Collect and get rates
+     *
+     * @param RateRequest $request
+     * @return Result|bool|Error
+     */
+    public function collectRates(RateRequest $request);
+}

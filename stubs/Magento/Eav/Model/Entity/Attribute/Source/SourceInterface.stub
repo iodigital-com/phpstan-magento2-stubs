@@ -1,0 +1,7 @@
+<?php
+
+namespace Magento\Eav\Model\Entity\Attribute\Source;
+
+interface SourceInterface
+{
+}

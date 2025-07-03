@@ -8,4 +8,9 @@ interface ProductInterface
      * @return int|string|null
      */
     public function getAttributeSetId();
+
+    /**
+     * @return string|null
+     */
+    public function getSku();
 }

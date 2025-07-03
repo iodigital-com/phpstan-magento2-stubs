@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Eav\Api\Data;
+
+interface AttributeOptionInterface
+{
+    /**
+     * Get option label
+     *
+     * @return string|null
+     */
+    public function getLabel();
+}

@@ -1,0 +1,31 @@
+<?php
+
+namespace Magento\Framework\Data;
+
+use Magento\Framework\DataObject;
+
+/**
+ * @template T of DataObject
+ */
+class Collection
+{
+    /**
+     * @var class-string<T>
+     */
+    protected $_itemObjectClass;
+
+    /**
+     * @return T
+     */
+    public function getFirstItem();
+
+    /**
+     * @return array<T>
+     */
+    public function getItems();
+
+    /**
+     * @return T
+     */
+    public function getNewEmptyItem();
+}

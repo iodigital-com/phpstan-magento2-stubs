@@ -1,0 +1,21 @@
+<?php
+
+namespace Magento\Catalog\Model\Product\Option;
+
+use Magento\Catalog\Model\Product\Option;
+
+class Repository
+{
+    /**
+     * @param string $sku
+     * @return array<Option>
+     */
+    public function getList($sku);
+
+    /**
+     * @param string $sku
+     * @param int $optionId
+     * @return Option
+     */
+    public function get($sku, $optionId);
+}
