@@ -1,0 +1,9 @@
+<?php
+
+namespace Magento\Quote\Model\Quote\Address;
+
+use Magento\Framework\DataObject;
+
+class RateRequest extends DataObject
+{
+}

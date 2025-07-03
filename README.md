@@ -1,6 +1,6 @@
 # PHPStan Magento 2 stubfiles
 
-[PHPStan](https://phpstan.org/) stubfiles for the Magento 2 framework. Currenly the stub files are targeted towards the 2.4.7.x version.
+[PHPStan](https://phpstan.org/) stubfiles for the Magento 2 framework. Currently the stub files are targeted towards the 2.4.7.x version.
 
 ## Installation
 
@@ -15,5 +15,5 @@ includes:
   - ./vendor/iodigital-com/phpstan-magento2-stubs/extension.neon
 ```
 
-## Notes
+    ## Notes
 It is not possible to replace @method in stubFiles since it will overwrite the complete phpdoc. This means you will have to copy all the @methods from that specific class. Please ignore this in your PHPStan Baseline.

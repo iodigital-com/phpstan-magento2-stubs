@@ -46,9 +46,14 @@ parameters:
         - ./stubs/Magento/Framework/Mview/MviewActionInterface.stub
         - ./stubs/Magento/Quote/Api/Data/CartItemInterface.stub
         - ./stubs/Magento/Quote/Model/Quote/Address.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address/RateRequest.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address/RateResult/AbstractResult.stub
+        - ./stubs/Magento/Quote/Model/Quote/Address/RateResult/Error.stub
         - ./stubs/Magento/Quote/Model/Quote/Item.stub
         - ./stubs/Magento/Quote/Model/Quote/Item/AbstractItem.stub
         - ./stubs/Magento/Sales/Api/Data/OrderInterface.stub
         - ./stubs/Magento/Sales/Api/Data/OrderItemInterface.stub
+        - ./stubs/Magento/Shipping/Model/Carrier/AbstractCarrierInterface.stub
+        - ./stubs/Magento/Shipping/Model/Rate/Result.stub
         - ./stubs/Magento/UrlRewrite/Model/ResourceModel/UrlRewriteCollection.stub
         - ./stubs/Magento/UrlRewrite/Model/UrlRewrite.stub

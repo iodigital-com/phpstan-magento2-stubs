@@ -6,4 +6,9 @@ use Magento\Framework\DataObject;
 
 abstract class AbstractModel extends DataObject
 {
+    /**
+     * @return int|null|string
+     */
+    public function getId();
 }
+
