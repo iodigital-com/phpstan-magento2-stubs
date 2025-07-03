@@ -11,6 +11,11 @@ interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterfa
     public function setItemId($itemId);
 
     /**
+     * @return string|int|null
+     */
+    public function getItemId();
+
+    /**
      * @param string|int|null $quoteId
      * @return $this
      */

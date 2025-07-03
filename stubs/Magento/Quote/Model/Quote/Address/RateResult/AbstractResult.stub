@@ -1,0 +1,9 @@
+<?php
+
+namespace Magento\Quote\Model\Quote\Address\RateResult;
+
+use Magento\Framework\DataObject;
+
+class AbstractResult extends DataObject
+{
+}
